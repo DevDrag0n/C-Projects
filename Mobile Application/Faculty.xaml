@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="Module2.Faculty"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Module2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="imglogo" Stretch="None"
+               Source="http://www.rasmussen.edu/images/logo-internal.png" Margin="-814,-482,814,497"/>
+        <TextBox x:Name="txtBoxFooter" HorizontalAlignment="Left" Margin="41,488,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="376" BorderBrush="#FFFDFDFD" IsReadOnly="True"/>
+        <HyperlinkButton x:Name="hypLnkPage2" Content="Home" HorizontalAlignment="Left" Margin="123,77,0,0" VerticalAlignment="Top" Click="hypLnkPage2_Click" RenderTransformOrigin="2.904,5.035"/>
+    </Grid>
+</Page>
